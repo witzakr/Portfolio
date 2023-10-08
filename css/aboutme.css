@@ -57,17 +57,19 @@ article {
 
 .image-container {
   border: 3px dashed black;
+  display: flex;
+  max-height: 500px;
+  max-width: 500px;
 }
 
 .image-container img {
   max-height: 500px;
   max-width: 500px;
+  display: flex;
 }
 
 .text-container  {
-  margin-top: 150px;
   margin-left: 10px;
-  display: flex;
   max-height: 500px;
 }
 
@@ -80,7 +82,7 @@ footer {
   padding: 10px 20px;
   height: 20px;
   opacity: 0.9;
-  margin-top: 217px;
+  margin-top: 221px;
 }
 
 footer a {
