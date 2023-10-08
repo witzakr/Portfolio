@@ -1,4 +1,4 @@
-  @keyframes my-animation {
+@keyframes my-animation {
     from {
       transform: translateX(100%);
     }

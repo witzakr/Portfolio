@@ -11,6 +11,13 @@ body {
     background-color: rgb(0, 0, 0);
   }
 
+  #scroll-text {
+    transform: translateX(100%);
+    animation: my-animation 15s linear infinite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
     section {
         display: flex; 
         justify-content: center;
