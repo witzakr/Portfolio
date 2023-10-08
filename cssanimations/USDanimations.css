@@ -1,4 +1,4 @@
-  @keyframes my-animation {
+@keyframes my-animation {
     from {
       transform: translateX(100%);
     }
@@ -15,23 +15,23 @@
 
 @keyframes moveDashedBorder {
   0% {
-      border: 2px solid rgb(0, 0, 0);
+      border: 2px dashed rgb(0, 0, 0);
       margin: 0;
   }
   25% {
-      border: 2px solid rgb(0, 0, 0);
+      border: 2px dashed rgb(0, 0, 0);
       margin-right: 25px;
   }
   50% {
-      border: 2px solid rgb(0, 0, 0);
+      border: 2px dashed rgb(0, 0, 0);
       margin: 25px;
   }
   75% {
-      border: 2px solid rgb(0, 0, 0);
+      border: 2px dashed rgb(0, 0, 0);
       margin-left: 25px;
   }
   100% {
-      border: 2px solid rgb(0, 0, 0);
+      border: 2px dashed rgb(0, 0, 0);
       margin: 0;
   }
 }

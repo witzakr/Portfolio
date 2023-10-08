@@ -48,8 +48,9 @@ body {
         font-size: 17px;
         text-transform: uppercase;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        border: 2px dashed #000000;
+        border: 2px solid #000000;
         padding: 200px 200px;
+        box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
     }
 
     section a:hover {

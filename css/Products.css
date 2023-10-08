@@ -18,35 +18,38 @@ body {
     text-transform: uppercase;
   }
 
-  .home-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 12px;
+  }
+
+  .dropdown img {
+    max-height: 60px;
   }
   
-  .home-button img {
-    max-height: 40px;
-    max-width: auto;
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: beige;
+    min-width: 40px;
+    box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border: 2px solid black;
   }
   
-  .home-button img:hover {
-    animation: linearGradientMove .3s infinite linear;
-    background: 
-    linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
-    linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
-    linear-gradient(0deg, #333 50%, transparent 0) repeat-y,
-    linear-gradient(0deg, #333 50%, transparent 0) repeat-y;
-    background-size: 4px 2px, 4px 2px, 2px 4px, 2px 4px;
-    background-position: 0 0, 0 100%, 0 0, 100% 0;
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
+
 
   section {
     display: flex; 
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
     height: 410px;
 }
 
@@ -77,8 +80,9 @@ section a {
     font-size: 17px;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 2px dashed #000000;
+    border: 2px solid #000000;
     padding: 200px 200px;
+    box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
 }
 
 section a:hover {
@@ -95,7 +99,7 @@ section a:hover {
     padding: 10px 20px;
     height: 20px;
     opacity: 0.9;
-    margin-top: 282px;
+    margin-top: 316px;
   }
 
   footer a {
