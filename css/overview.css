@@ -34,72 +34,50 @@ body {
     background-position: 0 0, 0 100%, 0 0, 100% 0;
   }
 
-  .section1 {
+  section {
     display: flex; 
     justify-content: center;
     align-items: center;
-  }
-
-  .text-container  {
     text-align: center;
+    margin-top: 200px;
+    height: 410px;
+}
+
+section h2 {
     justify-content: center;
     align-items: center;
-    max-width: 50%;
-  }
+    text-align: center;
+}
 
-  .text-container h1 {
-    background: 
-    linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
-    linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
-    linear-gradient(0deg, #333 50%, transparent 0) repeat-y,
-    linear-gradient(0deg, #333 50%, transparent 0) repeat-y;
-    background-size: 4px 2px, 4px 2px, 2px 4px, 2px 4px;
-    background-position: 0 0, 0 100%, 0 0, 100% 0;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 41px;
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; 
+}
+
+section li {
+    margin: 0 15px; 
+}
+
+section a {
+    display: flex;
+    text-decoration: none; 
+    color: #000000; 
+    font-size: 17px;
     text-transform: uppercase;
-    padding: 20px 100px;
-    animation: linearGradientMove .3s infinite linear;
-  }
-
-  .text-container p {
-    font-size: medium;
-    float: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 41px;
-    height: 650px;
-    background: 
-    linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
-    linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
-    linear-gradient(0deg, #333 50%, transparent 0) repeat-y,
-    linear-gradient(0deg, #333 50%, transparent 0) repeat-y;
-    background-size: 4px 2px, 4px 2px, 2px 4px, 2px 4px;
-    background-position: 0 0, 0 100%, 0 0, 100% 0;
-    animation: linearGradientMove .3s infinite linear;
-  }
-
-  .text-container a {
     border: 2px dashed #000000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 41px;
-    text-decoration: none;
-    padding: 20px 100px;
-    text-transform: uppercase;
-    color: black;
-    float: right;
-  }
+    padding: 200px 200px;
+}
 
-  .text-container a:hover {
+section a:hover {
     text-decoration: underline;
-  }
-
+    animation: moveDashedBorder 2s linear infinite;
+}
 
   footer {
     background-color: black;
@@ -110,7 +88,7 @@ body {
     padding: 10px 20px;
     height: 20px;
     opacity: 0.9;
-    margin-top: 80px;
+    margin-top: 282px;
   }
 
   footer a {
