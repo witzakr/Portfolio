@@ -1,11 +1,4 @@
-#scroll-text {
-    transform: translateX(100%);
-    animation: my-animation 15s linear infinite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: uppercase;
-  }
-  
-  @keyframes my-animation {
+   @keyframes my-animation {
     from {
       transform: translateX(100%);
     }
@@ -14,8 +7,26 @@
     }
   }
 
-  @keyframes linearGradientMove {
-    100% {
-        background-position: 4px 0, -4px 100%, 0 -4px, 100% 4px;
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
     }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

@@ -1,13 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 40s ease infinite;
   }
 
   #scroll-container {
     border: 1px solid black;
     overflow: hidden;
-    color: beige;
+    color: white;
     background-color: rgb(0, 0, 0);
   }
 
@@ -32,7 +34,9 @@ body {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: beige;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 40s ease infinite;
     min-width: 40px;
     box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
     padding: 12px 16px;
@@ -51,7 +55,6 @@ body {
     section {
         display: flex; 
         justify-content: center;
-        height: 410px;
     }   
 
     section h1 {
@@ -88,24 +91,42 @@ body {
         text-decoration: underline;
     }
 
-    footer {
-        background-color: black;
-        color: beige; 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px 20px;
-        height: 20px;
-        opacity: 0.9;
-        margin-top: 466px;
+
+    nav {
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      text-align: center;
     }
 
-    footer a {
-        color: beige;
-        text-decoration: none;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1; 
+  }
 
-    footer a:hover {
-        text-decoration: underline;
-    }
+  nav li {
+    margin: 0 15px; 
+}
+
+  nav a {
+      display: flex;
+      text-decoration: none; 
+      color: #000000; 
+      font-size: 25px;
+      text-transform: uppercase;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border: 2px solid #000000;
+      padding: 20px 200px;
+      box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+  }
+
+  nav a:hover {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 40s ease infinite;
+  }
