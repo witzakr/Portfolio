@@ -25,6 +25,9 @@ body {
     display: inline-block;
     color: beige;
     margin-top: 12px;
+    box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+    margin-left: 12px;
+    padding: 20px;
   }
 
   .dropdown img {
@@ -41,9 +44,12 @@ body {
     box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
-    border: 2px solid black;
   }
 
+  .dropdown-content img {
+    border: 2px solid black;
+  }
+  
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -60,7 +66,6 @@ body {
  }   
 
  .container {
-    outline: 2px solid black;
     box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
     padding: 30px 200px;
     height: 600px;
