@@ -64,20 +64,28 @@ body {
     }
 
     section ul {
-        list-style-type: none;
-        border: 2px solid black;
-        padding: 10px 200px;
-        height: 600px;
-        box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+      list-style-type: none;
+      border: 2px solid black;
+      padding: 10px 200px;
+      height: 700px;
+      box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+    }
+
+    section p {
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     section li {
         margin: 10px;
+        text-align: center;
     }
 
     section img {
         height: 500px;
         width: 800px;
+        box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+        outline: 2px solid black;
     }
 
     nav {
