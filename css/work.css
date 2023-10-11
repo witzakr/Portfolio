@@ -81,6 +81,15 @@ body {
         text-align: center;
     }
 
+    section a {
+      text-decoration: none;
+      color: black;
+    }
+
+    section a:hover {
+      text-decoration: underline;
+    }
+
     section img {
         height: 500px;
         width: 800px;
