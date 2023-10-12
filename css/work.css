@@ -68,7 +68,7 @@ body {
     section ul {
       list-style-type: none;
       padding: 10px 200px;
-      height: 700px;
+      height: 720px;
       box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
       outline: 2px solid black;
     }
@@ -84,12 +84,8 @@ body {
     }
 
     section a {
-      text-decoration: none;
       color: black;
-    }
-
-    section a:hover {
-      text-decoration: underline;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     section img {
