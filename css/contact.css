@@ -46,6 +46,10 @@ body {
     z-index: 1;
   }
 
+  .dropdown-content img {
+    border: 2px solid black;
+  }
+  
   .dropdown:hover .dropdown-content {
     display: block;
   }
