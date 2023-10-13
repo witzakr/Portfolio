@@ -68,6 +68,11 @@ body {
         text-align: center;
         justify-content: center;
         box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    article h1 {
+      text-transform: uppercase;
     }
     
     label {
