@@ -93,25 +93,3 @@ body {
       text-decoration: underline;
       animation: moveDashedBorder 2s linear infinite;
   }
-
-  footer {
-    background-color: black;
-    color: beige; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    height: 20px;
-    opacity: 0.9;
-    margin-top: 316px;
-  }
-
-  footer a {
-    color: beige;
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-
-  footer a:hover {
-    text-decoration: underline;
-  }
