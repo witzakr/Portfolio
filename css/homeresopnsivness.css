@@ -50,6 +50,7 @@
     #scroll#scroll-container {
         width: 100px;
     }
+    
 
     nav a {
         font-size: 17px;
@@ -324,45 +325,7 @@
 
 }
 
-@media (max-width: 750px) {
-    #scroll#scroll-container {
-        width: 100px;
-    }
 
-    .logo {
-        margin-top: 200px;
-    }
-
-
-    nav a {
-        font-size: 17px;
-        padding: 35px 40px;
-    }
-
-    section a {
-        padding: 4px 45px;
-    }
-}
-
-@media (max-width: 700px) {
-    #scroll#scroll-container {
-        width: 100px;
-    }
-
-    .logo {
-        margin-top: 200px;
-    }
-
-
-    nav a {
-        font-size: 17px;
-        padding: 30px 35px;
-    }
-
-    section a {
-        padding: 4px 45px;
-    }
-}
 
 
 
