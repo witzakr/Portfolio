@@ -6,3 +6,11 @@
    https://github.com/witzakr/Portfolio/blob/7139a6e7fa3d65d7c2a186433c06a51cdd59f4fd/css/homeresopnsivness.css#L1-L326
 3. Improving the use of semantic elements:
    https://github.com/witzakr/Portfolio/blob/7139a6e7fa3d65d7c2a186433c06a51cdd59f4fd/home.html#L20-L26
+4. Added the loading screen:
+
+   HTML:
+    https://github.com/witzakr/Portfolio/blob/0c2cf9f78c49c575387e1214cc0e4e350cd44a29/home.html#L14
+   CSS:
+   https://github.com/witzakr/Portfolio/blob/0c2cf9f78c49c575387e1214cc0e4e350cd44a29/css/loader.css#L1-L38
+   JavaScript:
+   https://github.com/witzakr/Portfolio/blob/0c2cf9f78c49c575387e1214cc0e4e350cd44a29/javascript/loader.js#L1-L9
