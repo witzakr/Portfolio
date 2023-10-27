@@ -9,7 +9,7 @@
   justify-content: center;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   transition: opacity 5s, visibility 3s;
-  z-index: 9999; /* Adjust this value as needed */
+  z-index: 9999; 
 }
 
 .loader::after {
@@ -31,7 +31,7 @@
   }
 }
 
-/* Optionally, you can add a class to hide the loader when needed */
+
 .loader--hidden {
   opacity: 0;
   visibility: hidden;
