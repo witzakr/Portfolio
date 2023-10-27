@@ -28,7 +28,7 @@
         margin-top: 100px;
     }
 
-    nav ul {
+    nav menu {
         list-style: none;
         margin: 0;
         padding: 0;
@@ -46,7 +46,6 @@
         display: flex;
         text-decoration: none; 
         color: #000000; 
-        font-size: 17px;
         text-transform: uppercase;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding: 200px 200px;
@@ -55,9 +54,25 @@
         height: 50px;
     }
 
+    nav img {
+      height: 80px;
+      position: absolute;
+    }
+
     nav a:hover {
         text-decoration: underline;
         animation: moveDashedBorder 2s linear infinite;
+    }
+
+    nav p {
+      position: absolute;
+      margin-top: 75px;
+      font-size: 17px;
+      visibility: hidden;
+    }
+
+    nav a:hover p {
+      visibility: visible;
     }
 
     section {
@@ -75,7 +90,7 @@
       margin-top: 10px;
     }
 
-    section ul {
+    section menu {
       list-style: none;
       padding: 0;
       display: flex;
@@ -99,10 +114,7 @@
       box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
   }
 
-  section a:hover {
-    text-decoration: underline;
-    animation: moveDashedBorder 2s linear infinite;
-  }
-
-
-    
+    section a:hover {
+      text-decoration: underline;
+      animation: moveDashedBorder 2s linear infinite;
+    }
