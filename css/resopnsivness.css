@@ -1,0 +1,382 @@
+@media (max-width: 1600px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 195px 195px;
+    }
+
+    section a {
+        padding: 15px 190px;
+    }
+
+}
+
+@media (max-width: 1550px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 190px 190px;
+    }
+
+    section a {
+        padding: 15px 185px;
+    }
+
+}
+
+@media (max-width: 1500px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 185px 185px;
+    }
+
+    section a {
+        padding: 15px 180px;
+    }
+
+}
+
+@media (max-width: 1450px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 175px 175px;
+    }
+
+    section a {
+        padding: 15px 175px;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 165px 165px;
+    }
+
+    section a {
+        padding: 15px 160px;
+    }
+
+}
+
+@media (max-width: 1350px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 155px 155px;
+    }
+
+    section a {
+        padding: 15px 155px;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 145px 145px;
+    }
+
+    section a {
+        padding: 10px 150px;
+    }
+
+}
+
+@media (max-width: 1250px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    .logo {
+        margin-top: 30px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 135px 145px;
+    }
+
+    section a {
+        padding: 10px 140px;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    .logo {
+        margin-top: 50px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 125px 125px;
+    }
+
+    section a {
+        padding: 10px 130px;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 115px 115px;
+    }
+
+    section a {
+        padding: 8px 120px;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 105px 110px;
+    }
+    
+    section a {
+        padding: 8px 110px;
+    }
+
+}
+
+@media (max-width: 1050px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    .logo {
+        margin-top: 75px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 95px 100px;
+    }
+
+    section a {
+        padding: 8px 100px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 85px 90px;
+    }
+
+    section a {
+        padding: 8px 90px;
+    }
+
+}
+
+@media (max-width: 950px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    .logo {
+        margin-top: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 75px 80px;
+    }
+
+    section a {
+        padding: 8px 80px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    .logo {
+        margin-top: 150px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 65px 70px;
+    }
+
+    section a {
+        padding: 6px 70px;
+    }
+
+}
+
+
+@media (max-width: 850px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    .logo {
+        margin-top: 150px;
+    }
+
+
+    nav a {
+        font-size: 17px;
+        padding: 55px 60px;
+    }
+
+    section a {
+        padding: 4px 65px;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    .logo {
+        margin-top: 150px;
+    }
+
+
+    nav a {
+        font-size: 17px;
+        padding: 45px 50px;
+    }
+
+    section a {
+        padding: 4px 55px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    .logo {
+        margin-top: 150px;
+    }
+
+
+    nav a {
+        font-size: 17px;
+        padding: 40px 45px;
+    }
+
+    section a {
+        padding: 4px 50px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    .logo {
+        margin-top: 200px;
+    }
+
+
+    nav a {
+        font-size: 17px;
+        padding: 35px 40px;
+    }
+
+    section a {
+        padding: 4px 45px;
+    }
+}
+
+@media (max-width: 700px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    .logo {
+        margin-top: 200px;
+    }
+
+
+    nav a {
+        font-size: 17px;
+        padding: 30px 35px;
+    }
+
+    section a {
+        padding: 4px 45px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
