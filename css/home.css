@@ -54,25 +54,9 @@
         height: 50px;
     }
 
-    nav img {
-      height: 80px;
-      position: absolute;
-    }
-
     nav a:hover {
         text-decoration: underline;
         animation: moveDashedBorder 2s linear infinite;
-    }
-
-    nav p {
-      position: absolute;
-      margin-top: 75px;
-      font-size: 17px;
-      visibility: hidden;
-    }
-
-    nav a:hover p {
-      visibility: visible;
     }
 
     section {

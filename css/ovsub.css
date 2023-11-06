@@ -47,10 +47,9 @@ body {
     display: flex;
     text-decoration: none; 
     color: #000000; 
-    font-size: 13px;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 200px 200px;
+    padding: 200px 180px;
     width: 100px;
     box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
     height: 50px;
@@ -59,22 +58,6 @@ body {
   nav a:hover {
       text-decoration: underline;
       animation: moveDashedBorder 2s linear infinite;
-  }
-
-  nav img {
-    height: 80px;
-    position: absolute;
-  }
-
-  nav p {
-    position: absolute;
-    margin-top: 90px;
-    font-size: px;
-    visibility: hidden;
-  }
-
-  nav a:hover p {
-    visibility: visible;
   }
 
   section {
