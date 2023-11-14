@@ -6,6 +6,7 @@
     <title>Empathy map</title>
     <link rel="stylesheet" href="css/work.css">
     <link rel="stylesheet" href="cssanimations/workanimations.css">
+    <link rel="stylesheet" href="css/popup.css">
 </head>
 <body>
 <header>
@@ -16,20 +17,25 @@
         <span><img src="images/menu.png" alt="Menu"></span>
         <div class="dropdown-content">
           <a href="home.html"><img src="images/homebutton.png" alt="Home"></a>
-          <a href="UCD.html"><img src="images/return.png" alt="Home"></a>
+          <a href="FED.html"><img src="images/return.png" alt="Home"></a>
         </div>
       </div>
 </header>
 <section>
-    <ul>
+    <article>
         <h1>Empathy map</h1>
-        <li><img src="images/Empathy Map.jpg" alt="empathy-map"></li>
-        <p>
-            An empathy map is a tool used in design thinking to build an emotional <br>
-            representation of a user or the customer. It's a versatile activity that may be <br>
-            used to generate new product ideas as well as better understand existing ones. <br>
-        </p>
-    </ul>
+        <img src="images/Empathy Map.jpg" alt="empathy-map">
+        <a href="#" id="openPopupBtn1">Description</a>
+        <div id="popup1" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopupBtn1">&times;</span>
+                <p>
+                    text
+                </p>
+            </div>
+        </div>        
+        <a href="https://docs.google.com/document/d/1q_OQNVvlS9ByQ9CP2cV6JGKeCvKofR3tR10xPPP4wHc/edit?usp=sharing">Click to see the document</a>
+    </article>
 </section>
 <nav>
     <ul>
@@ -37,5 +43,22 @@
         <li><a href="observation.html">→</a></li>
     </ul>
 </nav>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var openPopupBtn1 = document.getElementById('openPopupBtn1');
+        var closePopupBtn1 = document.getElementById('closePopupBtn1');
+        var popup1 = document.getElementById('popup1');
+
+        // Open the first popup
+        openPopupBtn1.addEventListener('click', function () {
+            popup1.style.display = 'block';
+        });
+
+        // Close the first popup
+        closePopupBtn1.addEventListener('click', function () {
+            popup1.style.display = 'none';
+        });
+    });
+</script>
 </body>
 </html>

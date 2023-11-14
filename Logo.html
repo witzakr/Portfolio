@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logo</title>
+    <title>Rizon</title>
     <link rel="stylesheet" href="css/work.css">
     <link rel="stylesheet" href="cssanimations/workanimations.css">
+    <link rel="stylesheet" href="css/popup.css">
 </head>
 <body>
 <header>
@@ -16,27 +17,47 @@
         <span><img src="images/menu.png" alt="Menu"></span>
         <div class="dropdown-content">
           <a href="home.html"><img src="images/homebutton.png" alt="Home"></a>
-          <a href="MediaProduction.html"><img src="images/return.png" alt="Home"></a>
+          <a href="FED.html"><img src="images/return.png" alt="Home"></a>
         </div>
       </div>
 </header>
 <section>
-    <ul>
+    <article>
         <h1>Logo</h1>
-        <li><img src="images/LogoProgress.jpg" alt="empathy-map"></li>
-        <li>
-            <p>
-                Recreate as much as possible the homepage of the 
-                SSC Eindhoven website, by using only HTML5 and CSS3.
-            </p>
-        </li>
-        <li><a href="https://docs.google.com/document/d/1KrzvdkwmhDPbnQ3CGiAYJsg9lifGAEyy4QuS-vi3iaQ/edit?usp=sharing">Motivation behind the logo</a></li>
-    </ul>
+        <img src="images/LogoProgress.jpg" alt="empathy-map">
+        <a href="#" id="openPopupBtn1">Description</a>
+        <div id="popup1" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopupBtn1">&times;</span>
+                <p>
+                    texxt34
+                </p>
+            </div>
+        </div>        
+        <a href="https://docs.google.com/document/d/1KrzvdkwmhDPbnQ3CGiAYJsg9lifGAEyy4QuS-vi3iaQ/edit?usp=sharing">Motivation behind the logo</a>
+    </article>
 </section>
 <nav>
     <ul>
         <li><a href="#">→</a></li>
     </ul>
 </nav>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var openPopupBtn1 = document.getElementById('openPopupBtn1');
+        var closePopupBtn1 = document.getElementById('closePopupBtn1');
+        var popup1 = document.getElementById('popup1');
+
+        // Open the first popup
+        openPopupBtn1.addEventListener('click', function () {
+            popup1.style.display = 'block';
+        });
+
+        // Close the first popup
+        closePopupBtn1.addEventListener('click', function () {
+            popup1.style.display = 'none';
+        });
+    });
+</script>
 </body>
 </html>

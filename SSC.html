@@ -6,6 +6,7 @@
     <title>SSC Eindhoven</title>
     <link rel="stylesheet" href="css/work.css">
     <link rel="stylesheet" href="cssanimations/workanimations.css">
+    <link rel="stylesheet" href="css/popup.css">
 </head>
 <body>
 <header>
@@ -21,23 +22,43 @@
       </div>
 </header>
 <section>
-    <ul>
+    <article>
         <h1>SSC Eindhoven replica</h1>
-        <li><img src="images/SSC.jpg" alt="empathy-map"></li>
-        <li>
-            <p>
-                Recreate as much as possible the homepage of the 
-                SSC Eindhoven website, by using only HTML5 and CSS3.
-            </p>
-        </li>
-        <li><a href="https://github.com/witzakr/SSC-website-partial-replica.git">https://github.com/witzakr/SSC-website-partial-replica.git</a></li>
-        <li><a href="website replicas/SSC website partial replica/index.html">Click here to see the website</a></li>
-    </ul>
+        <img src="images/SSC.jpg" alt="empathy-map">
+        <a href="#" id="openPopupBtn1">Description</a>
+        <div id="popup1" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopupBtn1">&times;</span>
+                <p>
+                    text3232
+                </p>
+            </div>
+        </div>        
+        <a href="https://github.com/witzakr/SSC-website-partial-replica.git">https://github.com/witzakr/SSC-website-partial-replica.git</a>
+        <a href="website replicas/SSC website partial replica/index.html">Click here to see the website</a>
+    </article>
 </section>
 <nav>
     <ul>
         <li><a href="Rizon.html">→</a></li>
     </ul>
 </nav>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var openPopupBtn1 = document.getElementById('openPopupBtn1');
+        var closePopupBtn1 = document.getElementById('closePopupBtn1');
+        var popup1 = document.getElementById('popup1');
+
+        // Open the first popup
+        openPopupBtn1.addEventListener('click', function () {
+            popup1.style.display = 'block';
+        });
+
+        // Close the first popup
+        closePopupBtn1.addEventListener('click', function () {
+            popup1.style.display = 'none';
+        });
+    });
+</script>
 </body>
 </html>

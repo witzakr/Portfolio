@@ -6,6 +6,7 @@
     <title>UXusability</title>
     <link rel="stylesheet" href="css/work.css">
     <link rel="stylesheet" href="cssanimations/workanimations.css">
+    <link rel="stylesheet" href="css/popup.css">
 </head>
 <body>
 <header>
@@ -16,25 +17,47 @@
         <span><img src="images/menu.png" alt="Menu"></span>
         <div class="dropdown-content">
           <a href="home.html"><img src="images/homebutton.png" alt="Home"></a>
-          <a href="UCD.html"><img src="images/return.png" alt="Home"></a>
+          <a href="FED.html"><img src="images/return.png" alt="Home"></a>
         </div>
-    </div>
+      </div>
 </header>
 <section>
-    <ul>
+    <article>
         <h1>UX and Usability</h1>
-        <li><img src="images/observation.jpg" alt="observation"></li>
-        <p>
-            Find two products, one for the good user experience and the second for the bad user experience.<br>
-            Give an explanation on why is one good and the second is bad
-        </p>
-        <li><a href="https://docs.google.com/document/d/1oskikIpEULlLTx4H41WjN1zxqkFVJJfd/edit?usp=sharing&ouid=114518952448023673795&rtpof=true&sd=true">Click to see the document</a></li>
-    </ul>
+        <img src="images/observation.jpg" alt="observation">
+        <a href="#" id="openPopupBtn1">Description</a>
+        <div id="popup1" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopupBtn1">&times;</span>
+                <p>
+                    text
+                </p>
+            </div>
+        </div>        
+        <a href="https://docs.google.com/document/d/1oskikIpEULlLTx4H41WjN1zxqkFVJJfd/edit?usp=sharing&ouid=114518952448023673795&rtpof=true&sd=true">Click to see the document</a>
+    </article>
 </section>
 <nav>
     <ul>
         <li><a href="empathymap.html">→</a></li>
     </ul>
 </nav>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var openPopupBtn1 = document.getElementById('openPopupBtn1');
+        var closePopupBtn1 = document.getElementById('closePopupBtn1');
+        var popup1 = document.getElementById('popup1');
+
+        // Open the first popup
+        openPopupBtn1.addEventListener('click', function () {
+            popup1.style.display = 'block';
+        });
+
+        // Close the first popup
+        closePopupBtn1.addEventListener('click', function () {
+            popup1.style.display = 'none';
+        });
+    });
+</script>
 </body>
 </html>

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Group Project</title>
-    <link rel="stylesheet" href="css/Subjectcss.css">
+    <link rel="stylesheet" href="css/groupProject.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link rel="stylesheet" href="cssanimations/SubjectAnimation.css">
+    <script src="javascript/popup.js"></script>
 </head>
 <body>
 <header>
@@ -18,17 +20,57 @@
           <a href="home.html"><img src="images/homebutton.png" alt="Home"></a>
           <a href="Products.html"><img src="images/return.png" alt="Home"></a>
         </div>
-      </div>
+    </div>
 </header>
 <section>
-    <ul>
+    <article>
         <h1>Group Project</h1>
-        <li><a href="#">Description</a></li>
-        <li><a href="#">Goals</a></li>
-        <li><a href="#">Planning</a></li>
-        <li><a href="#">Project Research</a></li>
-        <li><a href="#">Communication</a></li>
-    </ul>
+        <a href="#" id="openPopupBtn1">Description</a>
+        <div id="popup1" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopupBtn1">&times;</span>
+                <p>
+                    text1
+                </p>
+            </div>
+        </div>
+        <a href="#" id="openPopupBtn2">Goals</a>
+        <div id="popup2" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopupBtn2">&times;</span>
+                <p>
+                    text2
+                </p>
+            </div>
+        </div>
+        <a href="#" id="openPopupBtn3">Planning</a>
+        <div id="popup3" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopupBtn3">&times;</span>
+                <p>
+                    text3
+                </p>
+            </div>
+        </div>
+        <a href="#" id="openPopupBtn4">Project Research</a>
+        <div id="popup4" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopupBtn4">&times;</span>
+                <p>
+                    text4
+                </p>
+            </div>
+        </div>
+        <a href="#" id="openPopupBtn5">Communication</a>
+        <div id="popup5" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopupBtn5">&times;</span>
+                <p>
+                    text5
+                </p>
+            </div>
+        </div>
+    </article>
 </section>
 </body>
 </html>
