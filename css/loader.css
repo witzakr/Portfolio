@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  transition: opacity 5s, visibility 3s;
+  transition: opacity 2s, visibility 2s;
   z-index: 9999; 
 }
 
@@ -19,7 +19,7 @@
   border: 15px solid #dddddd;
   border-top-color: #e73c7e;
   border-radius: 50%;
-  animation: loading 5s ease infinite;
+  animation: loading 2s ease infinite;
 }
 
 @keyframes loading {
