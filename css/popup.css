@@ -5,17 +5,21 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 20px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
   z-index: 1;
-  height: 700px;
-  width: 700px;
-  margin-bottom: 300px;
+  padding: 20px;
+  height: 650px;
+  width: 900px;
+  animation: gradient 40s ease infinite;
 }
 
 .popup-content {
   text-align: center;
+}
+
+.popup-content p {
+  color: black;
 }
 
 .close {
