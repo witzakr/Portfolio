@@ -82,6 +82,13 @@ body {
     display: block;
   }
 
+  article ul {
+    list-style: none;
+  }
+
+  article li {
+    font-size: 20px;
+  }
 
   article a:hover {
     text-decoration: none;
@@ -132,3 +139,5 @@ body {
     background-size: 400% 400%;
     animation: gradient 40s ease infinite;
   }
+
+
