@@ -20,3 +20,6 @@
    HTML: https://github.com/witzakr/Portfolio/blob/a87b2333d3c552d02d5f1643d34315592c8bf423/grcommunication.html#L33-L46
    CSS: https://github.com/witzakr/Portfolio/blob/a87b2333d3c552d02d5f1643d34315592c8bf423/css/popup.css#L2-L34
    JavaScript: https://github.com/witzakr/Portfolio/blob/a87b2333d3c552d02d5f1643d34315592c8bf423/javascript/popup.js#L1-L15
+6. Added background animations:
+   HTML: https://github.com/witzakr/Portfolio/blob/14cc5b01dd63e24eb15593594f3c7b4ae34b3bb9/home.html#L36-L49
+   CSS: https://github.com/witzakr/Portfolio/blob/16f23cff86f711157a9a2e4ca207331a2048cf4d/css/background.css#L1-L116
