@@ -20,12 +20,26 @@ body {
   text-transform: uppercase;
 }
 
+article {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 100px;
+}
+
+article h1 {
+  padding: 10px 80px;
+  box-shadow: 16px 8px 16px 8px rgba(0,0,0,0.2);
+}
+
+
   nav {
     display: flex; 
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 40px;
   }
 
   nav menu {
@@ -45,15 +59,22 @@ body {
 
   nav a {
     display: flex;
-    text-decoration: none; 
-    color: #000000; 
+    flex-direction: column; /* Display content vertically (stacked) */
+    text-decoration: none;
+    color: #000000;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 200px 180px;
-    width: 100px;
+    padding: 160px 165px;
     box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
-    height: 50px;
-  }
+    height: 150px;
+    font-size: 18px;
+}
+
+nav img {
+    width: 125px;
+    height: 120px;
+    margin-bottom: 15px; /* Add margin at the bottom for spacing */
+}
 
   nav a:hover {
       text-decoration: underline;
@@ -96,3 +117,6 @@ body {
     animation: moveDashedBorder 2s linear infinite;
   }
 
+  section menu img {
+    height: 25px;
+  }

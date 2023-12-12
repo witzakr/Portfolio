@@ -20,12 +20,24 @@
       text-transform: uppercase;
     }
 
+    article {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    article h1 {
+      padding: 10px 100px;
+      box-shadow: 16px 8px 16px 8px rgba(0,0,0,0.2);
+    }
+
     nav {
         display: flex; 
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     nav menu {
@@ -39,22 +51,30 @@
     }
 
     nav li {
-        margin: 0 15px; 
-    }
+      margin: 0 15px; 
+      text-align: center;
+  }
 
-    nav a {
-        display: flex;
-        text-decoration: none; 
-        color: #000000; 
-        text-transform: uppercase;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding: 200px 200px;
-        width: 90px;
-        box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
-        height: 50px;
-    }
+  nav a {
+    display: flex;
+    flex-direction: column; /* Display content vertically (stacked) */
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 160px 165px;
+    box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+    height: 150px;
+    font-size: 18px;
+}
 
-    nav a:hover {
+  nav img {
+      width: 135px;
+      height: 120px;
+      margin-bottom: 10px; /* Add margin at the bottom for spacing */
+  }
+    
+  nav a:hover {
         text-decoration: underline;
         animation: moveDashedBorder 2s linear infinite;
     }
@@ -103,3 +123,4 @@
       animation: moveDashedBorder 2s linear infinite;
     }
 
+    
