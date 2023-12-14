@@ -25,18 +25,19 @@ body {
     display: inline-block;
     color: beige;
     margin-top: 12px;
-    box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
-    margin-left: 12px;
     padding: 20px;
-  }
+    box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+}
 
-  .dropdown img {
+.dropdown img {
     max-height: 60px;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
+    top: 100%; 
+    left: 0;    
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 40s ease infinite;
@@ -44,15 +45,16 @@ body {
     box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
-  }
+}
 
-  .dropdown-content img {
+.dropdown-content img {
     border: 2px solid black;
-  }
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
+
 
   section {
     display: flex;
