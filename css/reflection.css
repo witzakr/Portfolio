@@ -55,6 +55,18 @@ body {
     display: block;
 }
 
+.article1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.article1 h1 {
+  padding: 10px 80px;
+  box-shadow: 16px 8px 16px 8px rgba(0,0,0,0.2);
+}
+
 
   section {
     display: flex;
