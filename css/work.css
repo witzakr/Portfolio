@@ -61,37 +61,50 @@ body {
     margin: 10px; /* Add spacing between button groups */
     justify-content: center;
     align-items: center;
-}  
+} 
 
-  article {
+.article1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.article1 h1 {
+  padding: 10px 80px;
+  box-shadow: 16px 8px 16px 8px rgba(0,0,0,0.2);
+}
+
+
+  .article2 {
       text-align: center;
       justify-content: center;
       box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       padding: 10px 200px;
-      height: 720px;
+      height: 650px;
   }
 
-  article h1 {
+  .article2 h1 {
     text-transform: uppercase;
   }
 
-  article a {
+  .article2 a {
     margin: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     display: block;
   }
 
-  article ul {
+  .article2 ul {
     list-style: none;
   }
 
-  article a:hover {
+  .article2 a:hover {
     text-decoration: none;
   }
     
-  article img {
+  .article2 img {
     height: 500px;
     width: 800px;
     box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
