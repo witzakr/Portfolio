@@ -91,5 +91,13 @@ article {
 .text-container  {
   margin-left: 10px;
   max-height: 500px;
+  font-size: 20px;
 }
 
+.Github img {
+  height: 70px;
+}
+
+.Github a {
+  position: absolute;
+}
