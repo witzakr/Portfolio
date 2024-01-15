@@ -110,6 +110,11 @@ body {
     box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
     outline: 2px solid black;
   }
+
+  .article2 video {
+    height: 500px;
+    width: 800px;
+  }
     
 
     nav {
