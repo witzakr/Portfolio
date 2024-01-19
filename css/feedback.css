@@ -68,22 +68,22 @@ body {
     box-shadow: 16px 8px 16px 8px rgba(0,0,0,0.2);
   }
   
-    section {
-        display: flex;
-        flex-direction: column;
-        margin: 10px; /* Add spacing between button groups */
-        justify-content: center;
-        align-items: center;
-    }  
+  section {
+    display: flex;
+    flex-direction: row; /* Change flex-direction to row */
+    justify-content: center;
+    align-items: center;
+}
 
-    .article2 {
-        height: 700px;
-        width: 800px;
-        text-align: center;
-        justify-content: center;
-        box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+.article2 {
+    height: 700px;
+    width: 500px; 
+    text-align: center;
+    justify-content: center;
+    box-shadow: 16px 16px 16px 16px rgba(0, 0, 0, 0.2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px; 
+}
 
     .article2 h1 {
       text-transform: uppercase;
