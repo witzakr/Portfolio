@@ -3,7 +3,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 98%;
+    width: 90%;
     height: 98%;
     overflow: hidden;
     z-index: -1; /* Ensure the circles are behind other elements */

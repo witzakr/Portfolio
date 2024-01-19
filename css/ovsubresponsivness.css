@@ -1,4 +1,16 @@
-@media (max-width: 1600px) {
+@media (max-width: 1900px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 140px 140px;
+    }
+
+}
+
+@media (max-width: 1800px) {
     #scroll#scroll-container {
         width: 100px;
     }
@@ -6,51 +18,13 @@
     nav a {
         font-size: 17px;
         padding: 120px 120px;
-    }
-
-}
-
-@media (max-width: 1450px) {
-    #scroll#scroll-container {
-        width: 100px;
-    }
-
-    nav a {
-        font-size: 17px;
-        padding: 100px 100px;
-    }
-
-}
-
-@media (max-width: 1300px) {
-    #scroll#scroll-container {
-        width: 100px;
-    }
-
-    nav {
-        margin-top: 250px;
-    }
-
-    nav a {
-        font-size: 17px;
-        padding: 60px 60px;
+        color: white;
     }
 
 }
 
 
-@media (max-width: 900px) {
-    #scroll#scroll-container {
-        width: 100px;
-    }
 
-    
-    nav a {
-        font-size: 17px;
-        padding: 30px 30px;
-    }
-
-}
 
 
 
