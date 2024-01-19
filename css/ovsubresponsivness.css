@@ -18,7 +18,18 @@
     nav a {
         font-size: 17px;
         padding: 120px 120px;
-        color: white;
+    }
+
+}
+
+@media (max-width: 1600px) {
+    #scroll#scroll-container {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding: 80px 80px;
     }
 
 }
